@@ -1,5 +1,5 @@
 :root {
-  /* Color Palette based on your input */
+  
   --lilac: #B7A2C9;
   --space-cadet: #312E41;
   --silver: #C5C3C4;
@@ -7,23 +7,23 @@
   --space-cadet-2: #322F42;
   --raisin-black: #212531;
 
-  /* Semantic Colors for Easy theming */
+  
   --background-color: var(--raisin-black);
   --surface-color: var(--space-cadet-2);
   --text-color: var(--silver);
   --text-secondary-color: var(--lilac);
-  --accent-color: var(--lilac); /* A light purple accent for headers and links */
-  --highlight-color: var(--english-violet); /* A deeper purple for emphasis */
+  --accent-color: var(--lilac); 
+  --highlight-color: var(--english-violet); 
   
-  /* Spacing */
+  
   --spacing-unit: 8px;
 
-  /* Typography */
+  
   --font-family-primary: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   --font-family-monospace: 'Fira Code', 'JetBrains Mono', 'Courier New', monospace;
 }
 
-/* Base Styles */
+
 html, body {
   height: 100%;
   margin: 0;
@@ -40,7 +40,7 @@ body {
   min-height: 100vh;
 }
 
-/* Navigation */
+
 nav {
   width: 100%;
   background-color: var(--surface-color);
@@ -64,7 +64,7 @@ nav a:hover {
   color: var(--accent-color);
 }
 
-/* Main Content */
+
 main {
   flex: 1;
   width: 100%;
@@ -135,7 +135,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* About Section Specifics */
+
 .about-container {
   display: flex;
   flex-wrap: wrap;
@@ -168,7 +168,7 @@ a:hover {
   transform: scale(1.05);
 }
 
-/* Footer */
+
 footer {
   text-align: center;
   padding: calc(3 * var(--spacing-unit));
@@ -176,4 +176,5 @@ footer {
   color: var(--text-color);
   width: 100%;
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+
 }
